@@ -3,3 +3,9 @@
   background:#1E1E1E;
   height: 100vh;
 }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    width: 100%;
+  }
+}
