@@ -19,6 +19,12 @@ export const Brick = styled.div<{ backgroundColor: string }>`
   }
   @media (max-width: 600px) {
     width: 100%;
+    margin: 4px 0px;
+    padding: 0px 10px;
+
+    p {
+      font-size: .7rem;
+    }
   }
 `;
 

@@ -10,7 +10,9 @@ export const Screen = styled.div`
   justify-content: center;
   @media (max-width: 600px) {
     width: 100%;
+    height: max-content;
     flex-direction: column;
+    padding: 20px 0px;
   }
 `;
 
@@ -21,9 +23,10 @@ export const ButtonContainer = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  /* @media (max-width: 600px) {
-    width: 100%;
-  } */
+  @media (max-width: 600px) {
+    /* width: 100%; */
+    height: max-content;
+  }
 `;
 
 export const BricksContainer = styled.div`
@@ -34,7 +37,9 @@ export const BricksContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* @media (max-width: 600px) {
+  @media (max-width: 600px) {
     width: 100%;
-  } */
+    margin-left: 0px;
+    padding: 5px;
+  }
 `;
